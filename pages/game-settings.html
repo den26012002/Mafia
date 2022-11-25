@@ -4,28 +4,34 @@
 <head>
     <meta charset="utf-8" />
     <title>Мафия</title>
+    <link href = "../styles/header.css" rel="stylesheet">
+    <script src="../scripts/staff-generator.js" charset="utf-8"></script>
 </head>
 <body>
-    <main>
-        <div>
-            <table border="1" cellspacing="0">
-                <tr>
-                    <th colspan="2">Персонаж</th><th>Количество</th>
-                </tr>
-                <tr>
-                    <td><img height="100" width="100"/></td><td>Мирный житель</td><td>7</td>
-                </tr>
-                <tr>
-                    <td><img height="100" width="100" /></td><td>Мафия</td><td>3</td>
-                </tr>
-                <tr>
-                    <td colspan="3" align="center"><button>Добавить</button></td>
-                </tr>
-            </table>
+    <main class = "castomisation-page-main">
+        <div class = "table left">
+            <div class = "table-hero-title accent-text">Персонаж</div>
+            <div class = "table-number-title accent-text">Количество</div>
+            <div class = "table-element table-picture-element"><img src = "../img/heroes/circles/Citizen.png" class = "table-image"/></div>
+            <div class = "table-element text">Мирный житель</div>
+            <div class = "table-element text">7</div>
+            <div class = "table-element table-picture-element"><img src = "../img/heroes/circles/Mafia.png" class = "table-image" /></div>
+            <div class = "table-element text">Мафия</div>
+            <div class = "table-element text">3</div>
+            <div class = "table-element table-button-element"><button>Добавить</button></div>
+            
         </div>
-        <div>
-            <p>Прочая кастомизация</p>
+
+        <div class = "table">
+            <div class = "table-element table-title-element text accent-text">Прочая кастомизация</div>
         </div>
     </main>
+
+    <footer>
+        <dl>
+            <dt class = "text">Контакты:</dt>
+            <dd class = "text">Github: <a href="https://github.com/den26012002" class="hyperlink">github.com/den26012002</a></dd>
+        </dl>
+    </footer>
 </body>
 </html>

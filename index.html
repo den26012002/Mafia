@@ -3,42 +3,53 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8" />
+    <link href="styles/header.css" rel="stylesheet" />
+    <!--- <link href="styles/outline.css" rel="stylesheet" /> -->
     <title>Мафия</title>
 </head>
 <body>
-    <header>
-        <img src="img/logo.png" height="100" width="100" />
-        <p><h1>МАФИЯ</h1></p>
-        <figure>
-            <q>Ты приходишь и просишь что-то у меня, но ты просишь без уважения</q>,
-            <figcaption> &ndash; Дон Вито Корлеоне</figcaption>
-        </figure>
-    </header>
-    <nav>
-        <dl>
-            <dt>Играть:</dt>
-            <dd><a href="pages/game-settings.html">Создать</a></dd>
-            <dd><a href="pages/join-the-game.html">Присоединиться</a></dd>
+    <div class="header-and-nav">
+        <header>
+            <img src="img/logo.png" class="main-image" />
+            <h1 class="main-title">Мафия</h1>
+            <figure class = "quota">
+                <q class="text">Ты приходишь и просишь что-то у меня, но ты просишь без уважения</q>,
+                <figcaption class="text"> &ndash; Дон Вито Корлеоне</figcaption>
+            </figure>
+        </header>
+        <nav>
+            <dl>
+                <dt>Меню</dt>
+                <dd>
+                    <dl>
+                        <dt>Играть:</dt>
+                        <dd><a href="pages/game-settings.html">Создать</a></dd>
+                        <dd><a href="pages/join-the-game.html">Присоединиться</a></dd>
 
-            <dt>Об игре:</dt>
-            <dd><a href="pages/rules.html">Правила</a></dd>
-            <dd><a href="pages/heroes-description.html">Персонажи</a></dd>
-        </dl>
-    </nav>
-    <main>
-        <p><h2>Добро пожаловать в онлайн-версию игры "Мафия"!</h2></p>
-        <p>
-            Давно хотели сыграть с друзьями в "Мафию", но никак не можете собраться?
-            Сложно выбрать ведущего? Здесь можно решить все эти проблемы.
-            Вам больше не нужно где-то встречаться и спорить, кто станет ведущим.
-            Просто играйте и получайте удовольствие!
-        </p>
-        <a href="pages/join-the-game.html">Играть!</a>
+                        <dt>Об игре:</dt>
+                        <dd><a href="pages/rules.html">Правила</a></dd>
+                        <dd><a href="pages/heroes-description.html">Персонажи</a></dd>
+                    </dl>
+                </dd>
+            </dl>
+        </nav>
+    </div>
+    <main class = "main">
+        <div class="main-banner">
+            <h2 class = "accent-text title">Добро пожаловать в онлайн-версию игры "Мафия"!</h2>
+            <p class = "text description">
+                Давно хотели сыграть с друзьями в "Мафию", но никак не можете собраться?
+                Сложно выбрать ведущего? Здесь можно решить все эти проблемы.
+                Вам больше не нужно где-то встречаться и спорить, кто станет ведущим.
+                Просто играйте и получайте удовольствие!
+            </p>
+            <a href="pages/join-the-game.html" class = "playbutton">Играть!</a>
+        </div>
     </main>
     <footer>
         <dl>
-            <dt>Контакты:</dt>
-            <dd>Github: <a href="https://github.com/den26012002">github.com/den26012002</a></dd>
+            <dt class = "text">Контакты:</dt>
+            <dd class = "text">Github: <a href="https://github.com/den26012002" class="hyperlink">github.com/den26012002</a></dd>
         </dl>
     </footer>
 </body>
