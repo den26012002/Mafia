@@ -1,0 +1,4 @@
+.table__image {
+    width: calc(35vw / 3);
+    height: calc(35vw / 3);
+}

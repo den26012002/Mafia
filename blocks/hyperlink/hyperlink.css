@@ -1,0 +1,7 @@
+.hyperlink {
+    color: var(--accent-text-color);
+}
+
+.hyperlink:hover {
+    color: var(--border-color);
+}

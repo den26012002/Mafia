@@ -1,0 +1,13 @@
+.button {
+    width: 100%;
+    font-size: 24px;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (32 - 24) + 24px);
+    font-weight: bold;
+    color: var(--background-color);
+    background-color: var(--accent-text-color);
+    border: 3px solid;
+}
+
+.button:hover {
+    background-color: var(--border-color);
+}

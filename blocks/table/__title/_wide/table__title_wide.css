@@ -1,0 +1,9 @@
+.table__title_wide {
+    grid-column: 1 / 4;
+}
+
+@media screen  and (max-width:480px) {
+    .table__title_wide {
+        grid-column: 1 / 3;
+    }
+}

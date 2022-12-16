@@ -1,0 +1,5 @@
+.text_main-title {
+    color: var(--accent-text-color);
+    text-transform: uppercase;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (48 - 36) + 36px);
+}

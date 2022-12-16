@@ -1,0 +1,10 @@
+.hero-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*align-items: flex-end;*/
+    width: 80vw;
+    background-color: var(--background-color-alpha);
+    border: 1px solid var(--text-color);
+    border-radius: 1px;
+}

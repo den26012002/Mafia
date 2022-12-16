@@ -1,0 +1,6 @@
+.text {
+    color: var(--text-color);
+    font-size: 18px;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 18) + 18px);
+    font-family: Times, Times New Roman, serif;
+}

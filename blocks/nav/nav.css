@@ -1,0 +1,17 @@
+/*nav {
+    display: none;
+    background-color: var(--background-color-alpha);
+    height: 100%;
+    width: 25vw;
+}*/
+
+.nav {
+    display: flex;
+    width: 90vw;
+    background-color: var(--background-color-alpha);
+    justify-content: space-around;
+    background-color: var(--background-color-alpha);
+    border: 1px solid var(--text-color);
+    border-top: 0px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,10 @@
+.hyperlink_menu {
+    display: block;
+    text-decoration: none;
+    color: var(--text-color);
+    width: 100%;
+}
+
+.hyperlink_menu:hover {
+    background-color: var(--reserve-color-alpha)
+}
