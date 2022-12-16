@@ -1,0 +1,5 @@
+.table__title {
+    border: 1px solid var(--text-color-alpha);
+    background-color: var(--background-color-alpha);
+    color: var(--text-color);
+}

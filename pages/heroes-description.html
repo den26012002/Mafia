@@ -4,18 +4,48 @@
 <head>
     <meta charset="utf-8" />
     <title>Мафия</title>
-    <link href="../styles/header.css" rel="stylesheet" />
-    <script src="../scripts/staff-generator.js" charset="utf-8"></script>
+    <link href="../blocks/index.css" rel="stylesheet" />
+    <!---<script src="../scripts/staff-generator.js" charset="utf-8"></script>-->
 </head>
-<body>
+<body class = "body">
+    <div class="header-and-nav">
+        <header class = "body__header header">
+            <img src="../img/logo.png" class="main-image" />
+            <h1 class="text text_main-title">Мафия</h1>
+            <figure class = "quota">
+                <q class="text">Ты приходишь и просишь что-то у меня, но ты просишь без уважения</q>,
+                <figcaption class="text"> &ndash; Дон Вито Корлеоне</figcaption>
+            </figure>
+        </header>
+        <nav class="body__nav nav">
+            <div class="nav_item submenu">
+                <p class = "text text_accent">Играть</p>
+                <div class="submenu_item">
+                    <a class = "hyperlink hyperlink_menu" href="../pages/game-settings.html">Создать</a>
+                </div>
+                <div class = "submenu_item">
+                    <a class = "hyperlink hyperlink_menu" href="../pages/join-the-game.html">Присоединиться</a>
+                </div>
+            </div>
+            <div class = "nav_item submenu">
+                <p class = "text text_accent">Об игре</p>
+                <div class = "submenu_item">
+                    <a class = "hyperlink hyperlink_menu" href="../pages/rules.html">Правила</a>
+                </div>
+                <div class = "submenu_item">
+                    <a class = "hyperlink hyperlink_menu" href="../pages/heroes-description.html">Персонажи</a>
+                </div>
+            </div>
+        </nav>
+    </div>
     <main class = "main">
-        <h2 class = "accent-text">Персонажи:</h2>
+        <h2 class = "text text_accent">Персонажи:</h2>
         <section class = "hero-section">
-            <article class = "hero-article">
-                <h3 class = "accent-text hero-title">Мирный житель</h3>
+            <article class = "hero-section__article hero-article">
+                <h3 class = "text text_accent hero-article__title">Мирный житель</h3>
                 <div class = "hero-description">
-                    <img src="../img/heroes/Citizen.png" class = "hero-image"/>
-                    <img src="../img/heroes/circles/Citizen.png" class = "hero-image-small"/>
+                    <img src="../img/heroes/Citizen.png" class = "hero-description__image hero-image"/>
+                    <img src="../img/heroes/circles/Citizen.png" class = "hero-description__image hero-image-small"/>
                     <p class = "text">
                         Мирный житель просто просыпается утром и идёт на голосование.
                         Он старается вычислить мафию и случайно не повесить/посадить в тюрьму своих.
@@ -24,11 +54,11 @@
                 </div>
                 
             </article>
-            <article class = "hero-article">
-                <h3 class = "accent-text hero-title">Мафиози</h3>
+            <article class = "hero-section__article hero-article">
+                <h3 class = "text text_accent hero-article__title">Мафиози</h3>
                 <div class = "hero-description">
-                    <img src = "../img/heroes/Mafia.png" class = "hero-image" />
-                    <img src = "../img/heroes/circles/Mafia.png" class = "hero-image-small" />
+                    <img src = "../img/heroes/Mafia.png" class = "hero-description__image hero-image" />
+                    <img src = "../img/heroes/circles/Mafia.png" class = "hero-description__image hero-image-small" />
                     <p class = "text">
                         Мафия - главная гроза ночи.
                         Когда улицы покрываются тьмой, мафиози просыпается и выбирает жертву вместе со своими соклановцами.
@@ -42,7 +72,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class = "body__footer footer">
         <dl>
             <dt class = "text">Контакты:</dt>
             <dd class = "text">Github: <a href="https://github.com/den26012002" class="hyperlink">github.com/den26012002</a></dd>

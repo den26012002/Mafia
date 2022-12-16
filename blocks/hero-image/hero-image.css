@@ -1,0 +1,18 @@
+.hero-image {
+    width: max(20vh, 13.3vw);
+    height: max(30vh, 22.5vw);
+    width: 16vw;
+    height: 24vw;
+}
+
+@media screen and (max-width:480px) {
+    .hero-image {
+        display: none;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .hero-image {
+        display: flex;
+    }
+}

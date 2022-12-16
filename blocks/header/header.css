@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 15vh;
+    background-color: var(--background-color-alpha);
+    border: 1px solid var(--text-color);
+    border-top: 0px;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:480px) {
+    .header {
+        justify-content: center;
+    }
+}

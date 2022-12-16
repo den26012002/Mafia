@@ -1,0 +1,9 @@
+.table__title_heroes {
+    grid-column: 1 / 3;
+}
+
+@media screen  and (max-width:480px) {
+    .table__title_heroes {
+        grid-column: auto;
+    }
+}

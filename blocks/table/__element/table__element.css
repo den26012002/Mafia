@@ -1,0 +1,12 @@
+.table__element {
+    border: 1px solid var(--text-color-alpha);
+    color: var(--text-color);
+}
+
+.table__element:nth-child(6n-1), .table__element:nth-child(6n-2), .table__element:nth-child(6n-3) {
+    background-color: var(--reserve-color-alpha);
+}
+
+.table__element:nth-child(6n-4), .table__element:nth-child(6n-5), .table__element:nth-child(6n-6) {
+    background-color: var(--background-color-alpha);
+}

@@ -3,50 +3,54 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8" />
-    <link href="styles/header.css" rel="stylesheet" />
+    <link href="blocks/index.css" rel="stylesheet" />
     <!--- <link href="styles/outline.css" rel="stylesheet" /> -->
     <title>Мафия</title>
 </head>
-<body>
+<body class = "body">
     <div class="header-and-nav">
-        <header>
+        <header class = "body__header header">
             <img src="img/logo.png" class="main-image" />
-            <h1 class="main-title">Мафия</h1>
+            <h1 class="text text_main-title">Мафия</h1>
             <figure class = "quota">
                 <q class="text">Ты приходишь и просишь что-то у меня, но ты просишь без уважения</q>,
                 <figcaption class="text"> &ndash; Дон Вито Корлеоне</figcaption>
             </figure>
         </header>
-        <nav>
-            <dl>
-                <dt>Меню</dt>
-                <dd>
-                    <dl>
-                        <dt>Играть:</dt>
-                        <dd><a href="pages/game-settings.html">Создать</a></dd>
-                        <dd><a href="pages/join-the-game.html">Присоединиться</a></dd>
-
-                        <dt>Об игре:</dt>
-                        <dd><a href="pages/rules.html">Правила</a></dd>
-                        <dd><a href="pages/heroes-description.html">Персонажи</a></dd>
-                    </dl>
-                </dd>
-            </dl>
+        <nav class="body__nav nav">
+            <div class="nav_item submenu">
+                <p class = "text text_accent">Играть</p>
+                <div class="submenu_item">
+                    <a class = "hyperlink hyperlink_menu" href="pages/game-settings.html">Создать</a>
+                </div>
+                <div class = "submenu_item">
+                    <a class = "hyperlink hyperlink_menu" href="pages/join-the-game.html">Присоединиться</a>
+                </div>
+            </div>
+            <div class = "nav_item submenu">
+                <p class = "text text_accent">Об игре</p>
+                <div class = "submenu_item">
+                    <a class = "hyperlink hyperlink_menu" href="pages/rules.html">Правила</a>
+                </div>
+                <div class = "submenu_item">
+                    <a class = "hyperlink hyperlink_menu" href="pages/heroes-description.html">Персонажи</a>
+                </div>
+            </div>
         </nav>
     </div>
     <main class = "main">
         <div class="main-banner">
-            <h2 class = "accent-text title">Добро пожаловать в онлайн-версию игры "Мафия"!</h2>
-            <p class = "text description">
+            <h2 class = "text text_accent text_center main-banner__title">Добро пожаловать в онлайн-версию игры "Мафия"!</h2>
+            <p class = "text text_center main-banner__description">
                 Давно хотели сыграть с друзьями в "Мафию", но никак не можете собраться?
                 Сложно выбрать ведущего? Здесь можно решить все эти проблемы.
                 Вам больше не нужно где-то встречаться и спорить, кто станет ведущим.
                 Просто играйте и получайте удовольствие!
             </p>
-            <a href="pages/join-the-game.html" class = "playbutton">Играть!</a>
+            <a href="pages/join-the-game.html" class = "main-banner__playbutton playbutton">Играть!</a>
         </div>
     </main>
-    <footer>
+    <footer class = "body__footer footer">
         <dl>
             <dt class = "text">Контакты:</dt>
             <dd class = "text">Github: <a href="https://github.com/den26012002" class="hyperlink">github.com/den26012002</a></dd>

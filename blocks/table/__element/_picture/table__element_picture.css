@@ -1,0 +1,5 @@
+@media screen  and (max-width:480px) {
+    .table__element_picture {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.body {
+    /*background-color: var(--text-color);*/
+    background-image: url(../../img/background.jfif);
+    background-position: top center;
+    background-size: auto 100vh;
+    background-attachment: fixed;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;*/
+}

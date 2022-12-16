@@ -1,0 +1,6 @@
+.text_accent {
+    color: var(--accent-text-color);
+    font-size: 24px;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (30 - 24) + 24px);
+    font-weight: bold;
+}

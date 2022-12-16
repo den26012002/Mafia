@@ -1,0 +1,13 @@
+.table {
+    word-wrap: break-word;
+    display: grid;
+    grid-template-columns: repeat(3, calc(35vw/3));
+    text-align: center;
+    /*width: 35vw;*/
+}
+
+@media screen  and (max-width:480px) {
+    .table {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
