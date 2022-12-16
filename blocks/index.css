@@ -1,3 +1,4 @@
+@import url("../styles/common.css");
 @import url("body/body.css");
 @import url("body/__footer/body__footer.css");
 @import url("body/__header/body__header.css");
@@ -16,6 +17,7 @@
 @import url("hero-section/hero-section.css");
 @import url("hero-section/__article/hero-section__article.css");
 @import url("hyperlink/hyperlink.css");
+@import url("hyperlink/_active/hyperlink_active.css");
 @import url("hyperlink/_menu/hyperlink_menu.css");
 @import url("main/main.css");
 @import url("main-banner/main-banner.css");
@@ -39,4 +41,3 @@
 @import url("text/_accent/text_accent.css");
 @import url("text/_center/text_center.css");
 @import url("text/_main-title/text_main-title.css");
-@import url("../styles/header.css");
