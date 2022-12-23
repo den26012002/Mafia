@@ -10,7 +10,7 @@ function loadPeople() {
 
     var main = document.getElementsByClassName("main")[0];
 
-    fetch('http://jsonplaceholder.typicode.com/posts/1/comments')
+    fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
         .then((response) => response.json())
         .then((comments) => {
             var filterNumber = Math.floor(Math.random() * 3) + 1;
