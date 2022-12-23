@@ -6,6 +6,7 @@
     <title>Мафия</title>
     <link href = "../blocks/index.css" rel="stylesheet">
     <!---<script src="../scripts/staff-generator.js" charset="utf-8"></script>-->
+    <!---<script src="../scripts/show-page-load-time-info.js" charset="utf-8"></script>-->
 </head>
 <body class = "body">
     <div class="header-and-nav">
@@ -39,16 +40,17 @@
         </nav>
     </div>
     <main class = "main">
-        <form>
+        <form class = "join-the-game-form">
             <p>
-                <input type="text" placeholder="Введите код игры" /> <br />
-                <input type="text" placeholder="Введите имя" /> <br />
-                <button>Играть!</button>
+                <input type="text" id="field-input-game-code" placeholder="Введите код игры" /> <br />
+                <input type="text" id="field-input-name" placeholder="Введите имя" /> <br />
+                <button type="button" id="join-the-game-button">Играть!</button>
             </p>
         </form>
+        <img class = "placeholder-image placeholder-image_hidden" src = "../img/load-placeholders/slowpoke.gif">
     </main>
 </body>
 
 <script src="../scripts/active-page.js" charset="utf-8"></script>
-<script src="../scripts/show-page-load-time-info.js" charset="utf-8"></script>
+<script src="../scripts/load-people.js" charset="utf-8"></script>
 </html>

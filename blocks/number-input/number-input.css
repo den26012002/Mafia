@@ -1,0 +1,10 @@
+.number-input {
+    width: 50%;
+    height: 30%;
+    border: 0px;
+    background-color: #00000000;
+}
+
+.number-input:focus {
+    outline: none;
+}
