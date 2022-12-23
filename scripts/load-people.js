@@ -47,7 +47,8 @@ function loadPeople() {
             
             main.appendChild(div);            
         })
-        .catch(_ => {
+        .catch(err => {
+            console.log(err);
             var div = document.createElement("div");
             div.setAttribute("class", "main-banner");
             
